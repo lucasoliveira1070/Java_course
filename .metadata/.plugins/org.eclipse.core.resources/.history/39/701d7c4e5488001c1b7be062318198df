@@ -1,0 +1,13 @@
+package entities;
+
+public class Retangle {
+
+	public double Width;
+	public double Height;
+	
+	public double Area() {
+		return (Width * Height)/2;
+		
+	}
+	
+}

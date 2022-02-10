@@ -1,0 +1,35 @@
+package entities;
+
+public class Account {
+	private int numAccount;
+	private String nameOwnerAccount;
+	private double ammount;
+	
+	
+	public Account() {
+		
+	}
+	
+	public Account(int numAccount, String nameOwnerAccount) {
+		this.numAccount = numAccount;
+		this.nameOwnerAccount = nameOwnerAccount;
+	}
+	
+	public int getnumAccount() {
+		return this.numAccount;
+	}
+	
+	public String getnameOwnerAccount() {
+		return this.nameOwnerAccount;
+	}
+	
+	public void setnameOwnerAccount(String nameOwnerAccount) {
+		this.nameOwnerAccount = nameOwnerAccount;
+	}
+	
+	public double getAmmount() {
+		return this.ammount;
+	}
+	
+
+}

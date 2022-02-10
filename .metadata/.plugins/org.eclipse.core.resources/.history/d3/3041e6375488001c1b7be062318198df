@@ -1,0 +1,16 @@
+package entities;
+
+public class Triangle {
+
+	public double Width;
+	public double Height;
+	
+	public double Area() {
+		return (Width * Height)/2;
+		
+	}
+	
+	public double perimeter() {
+		
+	}
+}

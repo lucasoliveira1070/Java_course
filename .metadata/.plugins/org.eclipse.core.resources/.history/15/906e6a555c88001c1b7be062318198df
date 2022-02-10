@@ -1,0 +1,9 @@
+package entities;
+
+public class Student {
+	public String name;
+	public double score1;
+	public double score2;
+	public double score3;
+
+}

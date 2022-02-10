@@ -1,0 +1,35 @@
+package entities;
+
+public class Rectangle {
+
+	public double Width;
+	public double Height;
+	
+	public double area() {
+		return Width * Height;
+		
+	}
+	
+	public double perimeter() {
+		return (Width * 2) + (Height * 2);
+		
+	}
+	
+	public double diagonal(double Width, double Height) {
+		double diagonal = 0;
+		
+		diagonal = Math.sqrt(this.Width) + Math.sqrt(this.Height);
+		
+		return Math.sqrt(diagonal);
+	}
+	
+	public String toString() {
+		return "Area: \n"
+			   + String.format("%.2f",area()) 
+			   +"Perimeter: "
+			   +String.format("%.2f",perimeter())
+			   +"Diagonal: "
+			   +String.format("%.2f",diagonal(Width , Height));
+	}
+	
+}
